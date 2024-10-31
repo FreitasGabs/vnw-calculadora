@@ -21,6 +21,8 @@ export default function App() {
     setSegundoValor(Number(e.target.value));
   };
 
+
+  // criando as funções das operações
   const soma = () => {
     setResultado(primeiroValor + segundoValor);
   };
